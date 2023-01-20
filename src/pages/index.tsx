@@ -1,5 +1,6 @@
 import Intro from "@/Components/Intro";
 import Head from "next/head";
+import Qualifications from "./Qualifications";
 
 export default function Home() {
   return (
@@ -10,9 +11,13 @@ export default function Home() {
         </title>
       </Head>
 
-      <div>
+      {/* <section id='intro'>
         <Intro />
-      </div>
+      </section> */}
+
+      <section id ="qualifications">
+        <Qualifications />
+      </section>
     </div>
   )
 }

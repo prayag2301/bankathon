@@ -1,3 +1,46 @@
+.header1 {
+  padding: 16px;
+  font-weight: 700;
+  font-size: 20px;
+  font: lato;
+  margin-bottom: 25px;
+}
+
+.inp {
+  width: 328px;
+  height: 56px;
+  margin-left: 16px;
+  margin-top: 21px;
+}
+.inp2 {
+  width: 328px;
+  height: 56px;
+  margin-left: 16px;
+  margin-top: 11px;
+}
+.inp3 {
+  width: 328px;
+  height: 56px;
+  margin-left: 16px;
+  margin-top: 101px;
+}
+.logbtn {
+  width: 90%;
+  height: 56px;
+  margin-left: 5%;
+  margin-top: 26px;
+  background-color: #97144d;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+.ava1 {
+  font-size: 12px;
+  margin-top: 52px;
+  text-align: center;
+}
+
 .main {
   display: flex;
   flex-direction: column;
