@@ -50,6 +50,108 @@
   min-height: 100vh;
 }
 
+.header1 {
+  padding: 3%;
+  font-weight: 700;
+  font-size: 20px;
+  font: lato;
+  margin-bottom: 25px;
+}
+.ava {
+  margin-left: 20%;
+  width: 62px;
+  height: 62px;
+}
+
+.inp {
+  width: 328px;
+  height: 56px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 21px;
+}
+.inp2 {
+  width: 328px;
+  height: 56px;
+  margin-left: 16px;
+  margin-top: 41px;
+}
+.tick {
+  width: 20px;
+  height: 20px;
+  margin-left: 50%;
+  right: 0%;
+}
+.inp3 {
+  width: 328px;
+  height: 56px;
+  margin-left: 16px;
+  margin-top: 101px;
+}
+.check {
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 8.33%;
+  bottom: 8.33%;
+  background: #1fc24e;
+}
+.logbtn {
+  width: 90%;
+  height: 56px;
+  margin-left: 5%;
+  margin-top: 26px;
+  background-color: #97144d;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+.ava1 {
+  font-size: 12px;
+  margin-top: 52px;
+  color: #858585;
+  text-align: center;
+}
+.ava2 {
+  font-size: 12px;
+  color: #282828;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  width: 100%;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+}
+.ava3 {
+  font-size: 12px;
+  color: #282828;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  width: 100%;
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+}
+.ava4 {
+  font-size: 12px;
+  color: #c62e65;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  width: 100%;
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+}
 .description {
   display: inherit;
   justify-content: inherit;
@@ -140,7 +242,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -168,7 +270,7 @@
 
 .thirteen::before,
 .thirteen::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
 }
