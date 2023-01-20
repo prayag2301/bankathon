@@ -1,3 +1,4 @@
+import Intro from "@/Components/Intro";
 import Head from "next/head";
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
       </Head>
 
       <div>
-        Components
+        <Intro />
       </div>
     </div>
   )
